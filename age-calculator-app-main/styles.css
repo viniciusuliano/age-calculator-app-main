@@ -28,8 +28,8 @@ body{
 
 .app{
     background-color: var(--color-White);
-    height: 50%;
-    width: 45%;
+    height: 55%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
@@ -77,10 +77,14 @@ label{
 
 .botao__app{
     display: flex;
-    flex-direction: column;
-    align-items: end;
-    width: 90%;
+    align-items: center;
+    width: 100%;
 }
+
+hr{
+    width: 100%;
+}
+
 
 #botao{
     width: 4.5em;
@@ -105,12 +109,19 @@ label{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 25px;
     padding-left: 1em;
     font-style: italic;
     color: var(--color-Offblack);
+    font-size: 25px;
 }
 .vazio__app{
     color: var(--color-purple);
     letter-spacing: 4px;
+    height: fit-content;
+}
+
+.erro{
+    font-size: 10px;
+    color: var(--color-lighred);
+    font-style: italic;
 }
